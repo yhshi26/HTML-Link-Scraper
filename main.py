@@ -37,7 +37,7 @@ visualization = Tree()
 url_to_scrape = input("url to scrape: ")
 degrees_to_scrape = int(input("degrees to scrape (tree depth): "))
 
-current_degree = 0
+current_degree = 1
 visualization.create_node(url_to_scrape, url_to_scrape)
 
 scrapeHTMLdocument(url_to_scrape, current_degree)
